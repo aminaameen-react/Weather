@@ -11,26 +11,36 @@ body{
 .box
 {
   float:left;
-  width: 190px;
+  width: 210px;
+  height: 260px;
   padding: 50px;
   border: solid 2px wheat;
-  margin: 0.5%;
+  margin: 1%;
   border-radius: 5%;
-  background-color:beige;
+  background-color:antiquewhite;
 
 }
 .box:hover{
-  background-color:#61dafb;
+  background-color:aquamarine;
 }
 
 .result{
 
    width: 100%;
-  display: inline;
-  float: left;
   text-align: center;
  
 
+}
+
+@media only screen and (min-width: 360px) and (max-width:740px) {
+  .result {
+      text-align: center;
+      margin: auto;   
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
 }
 .input{
   margin: 2%;
