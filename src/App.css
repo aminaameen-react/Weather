@@ -1,61 +1,51 @@
-   
 * {
   box-sizing: border-box;
 }
 
-
-body{
+body {
   justify-content: center;
   margin: 1%;
 }
-.box
-{
-  float:left;
+.box {
+  float: left;
   width: 210px;
   height: 260px;
   padding: 50px;
   border: solid 2px wheat;
   margin: 1%;
   border-radius: 5%;
-  background-color:antiquewhite;
-
+  background-color: antiquewhite;
 }
-.box:hover{
-  background-color:aquamarine;
+.box:hover {
+  background-color: aquamarine;
 }
 
-.result{
-
-   width: 100%;
+.result {
+  width: 100%;
   text-align: center;
- 
-
 }
 
-@media only screen and (min-width: 360px) and (max-width:740px) {
+@media only screen and (min-width: 360px) and (max-width: 740px) {
   .result {
-      text-align: center;
-      margin: auto;   
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
-.input{
+.input {
   margin: 2%;
   text-align: center;
 }
-.input [type=text]{
-
-  border: #282c34;
-  border-radius: 5%;
+.input [type="text"] {
+  border: 2px solid #282c34;
+  border-radius: 20px;
   background: #61dafb;
   height: 30px;
-  
+  padding: 0 15px;
+  font-weight: 600;
 }
-
-
 
 .App-logo {
   height: 40vmin;
